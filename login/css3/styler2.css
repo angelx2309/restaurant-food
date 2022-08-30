@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to right, rgba(78, 10, 204, 0.959), rgba(0, 212, 11, 0.7))
+}
+header{
+    z-index: 100;
+}
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+.description:hover{
+    height: 80px;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}

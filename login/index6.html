@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu de restaurant</title>
+
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+crossorigin="anonymous">
+
+<link rel="stylesheet" href="css5/styler4.css">
+</head>
+<body>
+  <select name="select" onchange="cambiarMenu(this)">
+    <option value="" selected>carta de menu</option>
+    <option value="index4.html"> menu de hamburgesa</option>
+    <option value="index5.html">menu de pizza</option>
+    <option value="index6.html">menu de helado</option>
+    <option value="index7.html">menu de bebida frias</option>
+    <option value="index8.html">menu de postres</option>
+    <option value="index9.html">menu de desayuno</option>
+  </select>
+
+    <center>
+<h1 class="h4 m-4 text-primary">menu de helado</h1>
+
+<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4"></div>
+
+<div class="box-container">
+
+
+    <div class="col d-flex justify-content-center mb-4">
+  <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+     <h5 class="card-title pt-2 text-center text-primary">SUNDAE</h5>
+      <img src="./img/h-img-1.jpg" class="card-img-top" alt="...">
+       <div class="card-body ">
+      <p class="card-text  text-white-50 description">Suave y cremoso helado de vainilla bañado en salsa de maracuyá o de frutos rojos, con chispas de chocolate. Un helado para disfrutar de cada cucharada ¡un placer al paladar!</p>
+     <h5 class="text-primary">precio: <span class="precio">$5.900</span></h5>
+        <div class="d-grid gap-2"></div>
+        <select name="select">
+       <option value="sabores" selected>sabores</option>
+       <option value="maracuya">maracuya</option>
+     <option value="frutos rojos"> frutos rojos</option>
+     </select>
+     <button class="btn btn-primary button">añadir a carrito</button>
+     </div>
+     </div>
+    </div>
+     <div class="col d-flex justify-content-center mb-4">
+   <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+       <h5 class="card-title pt-2 text-center text-primary">CHOCOLITO</h5>
+        <img src="./img/h-img-2.jpg
+        " class="card-img-top" alt="...">
+      <div class="card-body ">
+      <p class="card-text  text-white-50 description">Helado sabor a vainilla en un delicioso cucurucho con una rica y suave cobertura de chocolate, ideal para niños.</p>
+      <h5 class="text-primary">precio: <span class="precio">$3.900</span></h5>
+        <div class="d-grid gap-2"></div>
+      <select name="select">
+        <option value="tamaño" selected>sabores</option>
+        <option value="CHOCOLITO">CHOCOLITO</option>
+      </select>
+      <button class="btn btn-primary button">añadir a carrito</button>
+      </div>
+      </div>
+     </div>
+      <div class="col d-flex justify-content-center mb-4">
+<div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+<h5 class="card-title pt-2 text-center text-primary">VASITO</h5>
+<img src="./img/h-img-3.jpg" class="card-img-top" alt="...">
+<div class="card-body ">
+    <p class="card-text  text-white-50 description">Helado suave y cremoso con sabor a Vainilla, Mandarina o Fresa; sabores que te harán divertir, ideal para niños y jóvenes.</p>
+    <h5 class="text-primary">precio: <span class="precio">$1.700</span></h5>
+    <div class="d-grid gap-2"></div>
+    <select name="select">
+      <option value="sabores" selected>sabores</option>
+      <option value="vainilla">vainilla</option>
+    <option value="Mandarina">Mandarina</option>
+    <option value="Fresa">Fresa</option>
+    </select>
+    <button class="btn btn-primary button">añadir a carrito</button>
+    </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+  <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+    <h5 class="card-title pt-2 text-center text-primary">GALLETAS</h5>
+    <img src="./img/h-img-4.jpg" class="card-img-top" alt="...">
+   <div class="card-body ">
+    <p class="card-text  text-white-50 description">Exquisito bocado que consiste en una capa de helado entre dos ricas galletas. Las puedes encontrar en sabores </p>
+    <h5 class="text-primary">precio: <span class="precio">$6.900</span></h5>
+    <div class="d-grid gap-2"></div>
+    <select name="select">
+      <option value="sabores" selected>sabores</option>
+      <option value="maracuya">maracuya</option>
+    <option value="ron con pasas"> ron con pasas/option>
+    <option value="chocolate">chocolate</option>
+    <option value="frutos rojos">frutos rojos</option>
+ </select>
+ <button class="btn btn-primary button">añadir a carrito</button>
+ </div>
+  </div>
+   </div>                   
+    <div class="col d-flex justify-content-center mb-4">
+   <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+    <h5 class="card-title pt-2 text-center text-primary">FRESKYMO</h5>
+    <img src="./img/h-img-5.jpg" class="card-img-top" alt="...">
+    <div class="card-body ">
+   <p class="card-text  text-white-50 description">Disfruta del rico sabor del helado de fresa cubierto con chocolate y trocitos de maní o si lo prefieres, también puedes elegir uno con centro líquido sabor a frutos rojos y cobertura de chocolate dulce.</p>
+  <h5 class="text-primary">precio: <span class="precio">$7.900</span></h5>
+ <div class="d-grid gap-2"></div>
+<select name="select">
+  <option value="sabores" selected>sabores/option>
+  <option value="mani">mani</option>
+<option value="frutos rojos"> frutos rojos</option>
+</select>
+<button class="btn btn-primary button">añadir a carrito</button>
+</div>
+</div>
+</div>
+<div class="col d-flex justify-content-center mb-4">
+<div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+<h5 class="card-title pt-2 text-center text-primary">DE FRUTA</h5>
+<img src="./img/h-img-6.jpg" class="card-img-top" alt="...">
+<div class="card-body ">
+<p class="card-text  text-white-50 description">Rica paleta de frutas naturales que dejarán un gran sabor en tu paladar.</p>
+<h5 class="text-primary">precio: <span class="precio">$4.900</span></h5>
+<div class="d-grid gap-2"></div>
+<select name="select">
+  <option value="sabores"selected>sabores</option>
+  <option value="Mora">Mora</option>
+<option value="Limón">Limón</option>
+<option value="Maracuyá">Maracuyá</option>
+</select>
+<button class="btn btn-primary button">añadir a carrito</button>
+</div>
+</div>
+</div>
+<div class="col d-flex justify-content-center mb-4">
+<div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+<h5 class="card-title pt-2 text-center text-primary">BATIDOS</h5>
+<img src="./img/h-img-7.jpg" class="card-img-top" alt="...">
+<div class="card-body ">
+<p class="card-text  text-white-50 description">Helados con texturas y sabores realmente deliciosas, elaborados para disfrutar con tu familia, pareja y amigos. Los encuentras en presentación de 18 litro </p>
+<h5 class="text-primary">precio: <span class="precio">$16.900</span></h5>
+<div class="d-grid gap-2"></div>
+<select name="select">
+  <option value="sabores" selected>sabores</option>
+  <option value="Vainilla">Vainilla</option>
+<option value="Brownie">Brownie</option>
+<option value="Veteado de Mora">Veteado de Mora</option>
+<option value="Cookies & Cream">Cookies & Cream</option>
+</select>
+<button class="btn btn-primary button">añadir a carrito</button>
+</div>
+</div>
+</div>
+</center>
+
+<script type="text/javascript">
+  console.log("SCRIPT");
+  function cambiarMenu(elem){
+
+    const valorActual = elem.value;
+    window.location.href = valorActual;
+    
+    console.log("Cambie menu ", valorActual);
+  }
+
+
+</script>
+
+</body>
+</html>

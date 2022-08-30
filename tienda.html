@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive food</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--custom css file link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tienda.css">
+    
+
+    <style>
+        .icon-cart{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <a href="index.html" class="logo"><i class="fas fa-utensils"></i>comida</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html">inicio</a>
+        <a href="#hamburguesas">hamburguesas</a>
+        <a href="#pizzas">pizzas</a>
+        <a href="#helados">helados</a>
+        <a href="#Bebidas">Bebidas</a>
+        <a href="#postres">postres</a>
+        <a href="#Desayunos">Desayunos</a>
+        <div style="float: right; cursor: pointer;">
+            <i class="fas fa-shopping-cart icon-cart my-cart-icon"></i>
+            <span class="badge badge-notify my-cart-badge"></span>
+        </div>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+
+
+
+<!-- popular section starts-->
+
+<section class="popular" id="hamburguesas">
+
+    <h1 class="heading"> Nuestras <span>hamburguesas</span> populares </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-1.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosa hamburguesa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <select name="select">
+                <option disabled selected> Selecciona tamaño</option>
+                <option value="mediana"> mediana</option>
+                <option value="grande">grande</option>
+            </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="1" data-name="sabrosa hamburguesas" data-summary="summary 1" data-price="5000" data-quantity="1" data-image="img/p-1.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/s-img-2.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosos hamburguesa con cevollas caramelisada</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>Selecciona tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="2" data-name="sabrosa hamburguesas con cevollas caramelisada" data-summary="summary 1" data-price="10000" data-quantity="1" data-image="img/s-img-2.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/s-img-3.jpg" width="60%" height="55%" alt="">
+            <h3>deliciosa hamburguesa de pollo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>Selecciona tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="3" data-name="deliciosa hamburguesas de pollo" data-summary="summary 1" data-price="12000" data-quantity="1" data-image="img/s-img-3.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/s-img-4.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosa hamburguesa doble carne</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <select name="select">
+                <option disabled selected> Selecciona tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="4" data-name="sabrosa hamburguesas doble carne" data-summary="summary 1" data-price="15000" data-quantity="1" data-image="img/s-img-4.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/s-img-5.jpg" width="60%" height="55%" alt="">
+            <h3>sambrosa hamburguesa de BBQ</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>selecciona tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="5" data-name="sabrosa hamburguesas de BBQ" data-summary="summary 1" data-price="25000" data-quantity="1" data-image="img/s-img-5.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/s-img-6.jpg" width="60%" height="55%" alt="">
+            <h3>saludable hamburguesa vegetariana</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>selecciona tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="6" data-name="saludable hamburguesas vegetariana" data-summary="summary 1" data-price="30000" data-quantity="1" data-image="img/s-img-6.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="popular" id="pizzas">
+
+    <h1 class="heading"> Nuestras <span>pizzas</span> populares </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-img-1.jpg" width="60%" height="55%" alt="">
+            <h3>deliciosa pizza jamon speciale</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>selecciona tamaño</option>
+              <option value="mediana"> mediana</option>
+              <option value="grande">grande</option>
+              <option value="grande">familiar</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="7" data-name="deliciosa pizza jamon speciale" data-summary="summary 1" data-price="17000" data-quantity="1" data-image="img/p-img-1.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-img-2.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosa pizza de salchicha italiana</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>Selecciona tamaño</option>
+              <option value="mediana"> mediana</option>
+              <option value="grande">grande</option>
+              <option value="grande">familiar</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="8" data-name="sambrosa pizza de salchicha italiana" data-summary="summary 1" data-price="11000" data-quantity="1" data-image="img/p-img-2.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-img-3.jpg" width="60%" height="55%" alt="">
+            <h3>calite pizza de datiles</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>selecciona tamaño</option>
+              <option value="mediana"> mediana</option>
+              <option value="grande">grande</option>
+              <option value="grande">familiar</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="9" data-name="calite pizza de datiles" data-summary="summary 1" data-price="24000" data-quantity="1" data-image="img/p-img-3.jpg" data-variante="mediana" >Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-img-4.jpg" width="60%" height="55%" alt="">
+            <h3>esquisita pizza de burrata</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>selecciona tamaño</option>
+              <option value="mediana"> mediana</option>
+              <option value="grande">grande</option>
+              <option value="grande">familiar</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="9" data-name="esquisita pizza de burrata" data-summary="summary 1" data-price="19000" data-quantity="1" data-image="img/p-img-4.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-img-5.jpg" width="60%" height="55%" alt="">
+            <h3>estupedad pizza  de verde mela</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+              <option value="mediana"> mediana</option>
+              <option value="grande">grande</option>
+              <option value="grande">familiar</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="10" data-name="estupedad pizza de verde mela" data-summary="summary 1" data-price="27000" data-quantity="1" data-image="img/p-img-5.jpg" data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/p-img-6.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosa pizza mixtas</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>selecciona tamaño</option>
+              <option value="mediana"> mediana</option>
+              <option value="grande">grande</option>
+              <option value="grande">familiar</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="11" data-name="sabrosa hamburguesas" data-summary="summary 1" data-price="31000" data-quantity="1" data-image="img/p-img-6.jpg">Agregar</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="popular" id="helados">
+
+    <h1 class="heading"> Nuestros <span>helados</span> populares </h1>
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/h-img-1.jpg" width="60%" height="55%" alt="">
+            <h3>dulce helado de maracuya y frutos rojo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>sabores</option>
+                <option value="maracuya">maracuya</option>
+              <option value="frutos rojos"> frutos rojos</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="12" data-name="dulce helado de maracuya y frutos rojos" data-summary="summary 1" data-price="6000" data-quantity="1" data-image="img/h-img-1.jpg"data-variante="maracuya">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/h-img-2.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosos helado de chocolisto</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="13" data-name="sabrosos helado de chocolisto" data-summary="summary 1" data-price="5000" data-quantity="1" data-image="img/h-img-2.jpg"data-variante="chocolate">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/h-img-3.jpg" width="60%" height="55%" alt="">
+            <h3>dulce helado en vasito</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>sabores</option>
+                <option value="vainilla">vainilla</option>
+              <option value="Mandarina">Mandarina</option>
+              <option value="Fresa">Fresa</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="13" data-name="dulce helado en vasito" data-summary="summary 1" data-price="5500" data-quantity="1" data-image="img/h-img-3.jpg" data-variante="vainilla">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/h-img-4.jpg" width="60%" height="55%" alt="">
+            <h3>crugiente helado de galletas</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>sabores</option>
+                <option value="maracuya">maracuya</option>
+              <option value="ron con pasas"> ron con pasas/option>
+              <option value="chocolate">chocolate</option>
+              <option value="frutos rojos">frutos rojos</option>
+           </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="14" data-name="crugiente helado de galletas" data-summary="summary 1" data-price="8600" data-quantity="1" data-image="img/h-img-4.jpg" data-variante="maracuya">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/h-img-5.jpg" width="60%" height="55%" alt="">
+            <h3>deliciosa helado freskymo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>sabores</option>
+                <option value="mani">mani</option>
+              <option value="frutos rojos"> frutos rojos</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="15" data-name="deliciosa helado freskymo" data-summary="summary 1" data-price="9000" data-quantity="1" data-image="img/h-img-5.jpg" data-variante="mani">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/h-img-6.jpg" width="60%" height="55%" alt="">
+            <h3>deliciosa paleta  de sabor a frutas</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <select name="select">
+                <option disabled selected>sabores</option>
+                <option value="Mora">Mora</option>
+              <option value="Limón">Limón</option>
+              <option value="Maracuyá">Maracuyá</option>
+                <option value="fresa">fresa</option>
+              <option value="sandia">sandia</option>
+              <option value="naranja">naranja</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="16" data-name="deliciosa paleta de sabor a frutas" data-summary="summary 1" data-price="4500" data-quantity="1" data-image="img/h-img-6.jpg" data-variante="Mora">Agregar</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="popular" id="Bebidas">
+
+    <h1 class="heading"> Nuestras <span>Bebidas</span> populares </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/b-img-1.jpg" width="60%" height="55%" alt="">
+            <h3>refrecante y delicioso jugos</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>sabores</option>
+                <option value="maracuya">maracuya</option>
+              <option value="frutos rojos"> frutos rojos</option>
+              <option value="sandia"> sandia</option>
+              <option value="piña"> piña</option>
+              <option value="fresa">fresa</option>
+              <option value="mango">mango</option>
+              <option value="lulo">lulo</option>
+              <option value="Mandarina">Mandarina</option>
+              </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="17" data-name="refrecante y delicioso jugos" data-summary="summary 1" data-price="6600" data-quantity="1" data-image="img/b-img-1.jpg" data-variante="maracuya" >Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/b-img-2.jpg" width="60%" height="55%" alt="">
+            <h3>sabrosos refrecante cafe con leche condensada</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="18" data-name="sabrosos refrecante cafe con leche condensada" data-summary="summary 1" data-price="7500" data-quantity="1" data-image="img/b-img-2.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/b-img-7.jpg" width="60%" height="55%" alt="">
+            <h3>refrecante y sabros piña colada</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"   data-id="19" data-name="refrecante y sabros piña colada" data-summary="summary 1" data-price="23000" data-quantity="1" data-image="img/b-img-7.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/b-img-4.jpg" width="60%" height="55%" alt="">
+            <h3>fria y refrecante cafe helado a la caribeña</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="20" data-name="fria y refrecante cafe helado a la caribeña" data-summary="summary 1" data-price="8500" data-quantity="1" data-image="img/b-img-4.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/b-img-5.jpg" width="60%" height="55%" alt="">
+            <h3>refrecante y sabrosa bebida bloody mary</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="21" data-name="refrecante y sabrosa bebida bloody mary" data-summary="summary 1" data-price="32000" data-quantity="1" data-image="img/b-img-5.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/b-img-6.jpg" width="60%" height="55%" alt="">
+            <h3>fria y refrecante acapulco</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="22" data-name="fria y refrecante acapulco" data-summary="summary 1" data-price="26000" data-quantity="1" data-image="img/b-img-6.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="popular" id="postres">
+
+    <h1 class="heading"> Nuestros <span>postres</span> populares </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/ps-img-1.jpg" width="60%" height="55%" alt="">
+            <h3>exquisito postres de galette de ciruela y hojaldres</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="23" data-name="exquisito postres de galette de ciruela y hojaldres" data-summary="summary 1" data-price="39000" data-quantity="1" data-image="img/ps-img-1.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/ps-img-2.jpg" width="60%" height="55%" alt="">
+            <h3>TARTA DE TURRÓN BLANDO Y CARAMELO SALADO</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="24" data-name="TARTA de TURRÓN BLANDO y CARAMELO SALADO" data-summary="summary 1" data-price="37000" data-quantity="1" data-image="img/ps-img-2.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/ps-img-3.jpg" width="60%" height="55%" alt="">
+            <h3>TARTA DE CUMPLEAÑOS CON MELOCOTÓN Y FRAMBUESAS</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="25" data-name="TARTA de CUMPLEAÑOS con MELOCOTÓN y FRAMBUESAS" data-summary="summary 1" data-price="40000" data-quantity="1" data-image="img/ps-img-3.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/ps-img-4.jpg" width="60%" height="55%" alt="">
+            <h3>Banda de hojaldre</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="26" data-name="Banda de hojaldres" data-summary="summary 1" data-price="32000" data-quantity="1" data-image="img/ps-img-4.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/ps-img-7.jpg" width="60%" height="55%" alt="">
+            <h3>Galletas de chocolate y garbanzos con mantequilla de cacahuete</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="27" data-name="galletas de chocolate y garbanzos con mantequilla de cacahuete" data-summary="summary 1" data-price="14000" data-quantity="1" data-image="img/ps-img-7.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/ps-img-8.jpg" width="60%" height="55%" alt="">
+            <h3>Flan de tres leches de Pamela Rodríguez</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="28" data-name="Flan de tres leche de pamela Rodríguez" data-summary="summary 1" data-price="13000" data-quantity="1" data-image="img/ps-img-8.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="popular" id="Desayunos">
+
+    <h1 class="heading"> Nuestros <span>Desayunos</span> populares </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/d-img-1.jpg" width="60%" height="55%" alt="">
+            <h3>SMOOTHIE DE BAYAS DE GOJI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn" data-id="29" data-name="SMOOTHIE de bayas de GOJI" data-summary="summary 1" data-price="15000" data-quantity="1" data-image="img/d-img-1.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/d-img-2.jpg" width="60%" height="55%" alt="">
+            <h3>TORTITAS DE AVENA CON PLÁTANO</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="30" data-name="TORTITAS de AVENA con PLÁTANO" data-summary="summary 1" data-price="14000" data-quantity="1" data-image="img/d-img-2.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/d-img-3.jpg" width="60%" height="55%" alt="">
+            <h3>TOSTADA DE TORTILLA Y SALMÓN</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class=" btn my-cart-btn"  data-id="31" data-name="TOSTADA de TORTILLA y SALMÓN" data-summary="summary 1" data-price="24000" data-quantity="1" data-image="img/d-img-3.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/d-img-4.jpg" width="60%" height="55%" alt="">
+            <h3>SMOOTHIE DE AÇAI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="32" data-name="SMOOTHIE de AÇAI" data-summary="summary 1" data-price="11000" data-quantity="1" data-image="img/d-img-4.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/d-img-5.jpg" width="60%" height="55%" alt="">
+            <h3>YOGUR DE COCO CON GRANADA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class=" btn my-cart-btn"   data-id="33" data-name="YOGUR de COCO con GRANADA" data-summary="summary 1" data-price="26000" data-quantity="1" data-image="img/d-img-5.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+        <div class="box">
+            <span class="price"> $5000 - $60.000</span>
+            <img src="img/d-img-6.jpg" width="60%" height="55%" alt="">
+            <h3>SÁNDWICH DE VERDURAS A LA PLANCHA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+
+            <select name="select">
+                <option disabled selected>tamaño</option>
+                  <option value="mediana"> mediana</option>
+                  <option value="grande">grande</option>
+                </select>
+
+            <a href="javascript:void(0);" class="btn my-cart-btn"  data-id="34" data-name="SÁNDWICH DE VERDURAS A LA PLANCHA" data-summary="summary 1" data-price="33000" data-quantity="1" data-image="img/d-img-6.jpg"data-variante="mediana">Agregar</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- stepw section stars -->
+
+<section class="steps">
+
+<div class="box">
+    <img src="img/step-1.jpg" width="50%" height="55%" alt="">
+    <h3>elige tu comida favorita</h3>
+</div><div class="box">
+    <img src="img/step-2.jpg" width="50%" height="55%" alt="">
+    <h3>entrega  rapida y gratuito</h3>
+</div><div class="box">
+    <img src="img/step-3.jpg" width="50%" height="55%" alt="">
+    <h3>metodos de pago faciles</h3>
+</div><div class="box">
+    <img src="img/step-4.jpg" width="50%" height="55%" alt="">
+    <h3> y finalmente disfruta tu comida</h3>
+</div>
+
+</section>
+
+<!-- stepw section ends -->
+
+
+
+
+<!-- footer section -->
+
+<section class="footer">
+
+    <h1 class="credit">created by <span> mr. angelo web </span> all rights reserved!</h1>
+
+</section>
+
+<!-- scroll top button -->
+<a href="#inicio" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader -->
+<div class="loader-container">
+    <img src="img/loader.gif" alt="">
+</div>
+
+
+
+<!-- custom js dile link -->
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mycart.js"></script>
+<script src="js/mycart-script.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
